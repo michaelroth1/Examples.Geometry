@@ -6,6 +6,8 @@ This repository contains a Geometry Assembly focused on computing the areas of b
 
 The primary goal of this assembly is to provide functionality for calculating the area of different geometric shapes. It offers methods and classes for computing the area of rectangles, circles, and triangles.
 
+![ClassDiagramm](ClassDiagram.png)
+
 ### Geometric Shapes Supported
 
 - **Rectangle:** Includes functions to calculate the area based on its width and height.
