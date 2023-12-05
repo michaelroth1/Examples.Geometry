@@ -1,0 +1,22 @@
+﻿##Single Responsibility Principle##
+Each component should have only one sole purpose.
+It should not fulfill excessive functionality.
+
+##Open-Closed Principle##
+Components/classes should be open 
+for extension but closed for modification.
+
+##Liskov Substitution Principle##
+Every subclass or child class should be 
+substitutable for their base or parent class.
+
+##Interface Segregation Principle##
+Interfaces should not force classes to 
+implement something they cannot deliver.
+According to the SRP of classes, large interfaces 
+should be divided into smaller ones.
+
+##Dependency inversion Principle##
+Higher level components should not depend
+directly on lower level components. 
+Both should only depend on abstractions.
