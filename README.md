@@ -20,7 +20,7 @@ To use this Geometry Assembly in your project, follow these steps:
 
 1. **Clone the Repository:**
     ```bash
-    git clone https://github.com/your-username/geometry-assembly.git
+    git clone https://github.com/michaelroth1/Examples.Geometry
     ```
 
 2. **Include in Your Project:**
