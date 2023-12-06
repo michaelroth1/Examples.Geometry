@@ -43,7 +43,9 @@ Here's a simple example demonstrating how to calculate the area of different sha
         Rectangle rectangle = new(2, 4);
         rectangle.Height = 3;
 
-        calculator.CalculateArea(rectangle);
+        var area = calculator.CalculateArea(rectangle);
+
+        Console.WriteLine($"The rectangle's area is: {area}");
 
         Console.ReadLine();
     }
