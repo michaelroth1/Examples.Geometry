@@ -5,6 +5,8 @@ VisualStudioVersion = 17.8.34322.80
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Geometry", "Geometry\Geometry.csproj", "{0C0F5886-CCD2-4689-BA79-7B05FE62EC2F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalcApp", "CalcApp\CalcApp.csproj", "{32A1A7B4-912E-4445-8A35-4B61DAB46539}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{0C0F5886-CCD2-4689-BA79-7B05FE62EC2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C0F5886-CCD2-4689-BA79-7B05FE62EC2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C0F5886-CCD2-4689-BA79-7B05FE62EC2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32A1A7B4-912E-4445-8A35-4B61DAB46539}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32A1A7B4-912E-4445-8A35-4B61DAB46539}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32A1A7B4-912E-4445-8A35-4B61DAB46539}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32A1A7B4-912E-4445-8A35-4B61DAB46539}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
