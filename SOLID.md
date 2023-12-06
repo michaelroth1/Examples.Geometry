@@ -7,7 +7,7 @@ It should not fulfill excessive functionality.
 Components/classes should be open 
 for extension but closed for modification.
 
-** Violation **
+__ Violation __
 Rewriting existing code, in case of adding 
 new functionality.
 
