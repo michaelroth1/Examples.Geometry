@@ -7,11 +7,11 @@ It should not fulfill excessive functionality.
 Components/classes should be open 
 for extension but closed for modification.
 
-# Violation
+### Violation
 Rewriting existing code, in case of adding 
 new functionality.
 
-# Solution
+### Solution
 Inheritance / Interfaces
 
 ## Liskov Substitution Principle
@@ -20,7 +20,7 @@ substitutable for their base or parent class.
 A superclass must be replaceable by a child class 
 without affecting the correctness of the program.
 
-# Violation
+### Violation
 Replacement of a child class breaks the 
 expectations/assumptions of its parent class.
 
@@ -35,6 +35,6 @@ Higher level components should not depend
 directly on lower level components. 
 Both should only depend on abstractions.
 
-# Violation
+### Violation
 Direct injections of lower level
 components into higher ones
