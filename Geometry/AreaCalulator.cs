@@ -9,18 +9,18 @@ namespace Geometry
     public class AreaCalulator
     {
         public double CalculateArea(object shape)
-        {           
-            if (shape is Rectangle rectangle)
+        {
+            if (shape.GetType() == typeof(Rectangle))
             {
-                return rectangle.GetArea();
+                return ((Rectangle)shape).GetArea();
             }
-            else if (shape is Trinagle trinagle)
+            else if (shape.GetType() == typeof(Trinagle))
             {
-                return trinagle.GetArea();
+                return ((Trinagle)shape).GetArea();
             }
-            else if (shape is Circle circle)
+            else if (shape.GetType() == typeof(Circle))
             {
-                return circle.GetArea();
+                return ((Circle)shape).GetArea();
             }
             else
             {
