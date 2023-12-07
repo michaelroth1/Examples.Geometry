@@ -4,7 +4,7 @@ Each component should have only one sole purpose.
 It should not fulfill excessive functionality.
 
 **Violation:**
-Whenever a component has excessive functionality
+Whenever a component has an excessive functionality
 
 ## Open-Closed Principle
 Components/classes should be open 
