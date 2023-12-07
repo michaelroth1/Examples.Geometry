@@ -21,7 +21,8 @@ Inheritance / Interfaces
 Every subclass or child class should be 
 substitutable for their base or parent class.
 A superclass must be replaceable by a child class 
-without affecting the correctness of the program.
+without affecting the correctness/assumption
+of the program.
 
 **Violation:**
 Replacement of a child class breaks the 
