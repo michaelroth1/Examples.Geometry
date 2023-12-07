@@ -33,7 +33,7 @@ implement something they cannot deliver.
 According to the SRP of classes, large interfaces 
 should be divided into smaller ones.
 
-## Dependency inversion Principle
+## Dependency Inversion Principle
 Higher level components should not depend
 directly on lower level components. 
 Both should only depend on abstractions.
