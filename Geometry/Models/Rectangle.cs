@@ -12,7 +12,7 @@ public class Rectangle
 
     public virtual double Height { get; set; }
                 
-    public double CalculateArea()
+    public virtual double CalculateArea()
     {
         return Width * Height;
     }

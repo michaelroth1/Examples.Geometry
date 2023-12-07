@@ -12,7 +12,7 @@ public class Trinagle
 
     public virtual double Height { get; set; }
 
-    public double CalculateArea()
+    public virtual double CalculateArea()
     {
         return BaseLength * Height / 2;
     }

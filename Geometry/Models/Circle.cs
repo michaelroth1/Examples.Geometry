@@ -9,7 +9,7 @@ public class Circle
 
     public virtual double Radius { get; set; }
 
-    public double CalculateArea()
+    public virtual double CalculateArea()
     {
         return Math.PI * Radius * Radius;
     }
