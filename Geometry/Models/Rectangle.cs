@@ -1,4 +1,5 @@
 ﻿namespace Geometry.Models;
+
 public class Rectangle
 {
     public Rectangle(double width, double height)
@@ -7,7 +8,12 @@ public class Rectangle
         Height = height;
     }
 
-    public double Width { get; set; }
+    public virtual double Width { get; set; }
 
-    public double Height { get; set; }
+    public virtual double Height { get; set; }
+                
+    public double CalculateArea()
+    {
+        return Width * Height;
+    }
 }

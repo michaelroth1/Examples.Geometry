@@ -8,18 +8,15 @@ public class AreaCalulator
     {
         if (shape.GetType() == typeof(Rectangle))
         {
-            var rect = (Rectangle)shape;
-            return rect.Width * rect.Height;
+            return ((Rectangle)shape).CalculateArea();
         }
         else if (shape.GetType() == typeof(Trinagle))
         {
-            var trinagle = (Trinagle)shape;
-            return trinagle.BaseLength * trinagle.Height / 2;
+            return ((Trinagle)shape).CalculateArea();
         }
         else if (shape.GetType() == typeof(Circle))
         {
-            var circle = (Circle)shape;
-            return Math.PI * circle.Radius * circle.Radius;
+            return ((Circle)shape).CalculateArea();
         }
         else
         {
