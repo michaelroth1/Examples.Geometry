@@ -20,7 +20,7 @@ public class AreaCalulator
         }
         else
         {
-            throw new ArgumentException("Shape has not the expected type");
+            throw new ArgumentException("Unsupported type");
         }
     }
 }
