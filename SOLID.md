@@ -15,7 +15,7 @@ Rewriting existing code, in case of adding
 new functionality.
 
 **Solution:**
-Inheritance / Interfaces
+Polymorphism/abstraction
 
 ## Liskov Substitution Principle
 Every subclass or child class should be 
@@ -27,6 +27,10 @@ of the program.
 **Violation:**
 Replacement of a child class breaks the 
 expectations/assumptions of its parent class.
+
+**Solution:**
+A child class has to meet all contracts
+set by the base class.
 
 ## Interface Segregation Principle
 Interfaces should not force classes to 
@@ -42,3 +46,6 @@ Both should only depend on abstractions.
 **Violation:**
 Direct injections of lower level
 components into higher ones
+
+**Solution:**
+Polymorphism/abstraction
