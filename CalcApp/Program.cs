@@ -7,16 +7,21 @@ internal class Program
 {
     static void Main()
     {
-        Console.WriteLine($"Start the calculation of a rectangle's area.");
+        Console.WriteLine($"Start:");
 
-        AreaCalulator calculator = new();
         Rectangle rectangle = new(2, 4);
-
-        Console.WriteLine($"The rectangle's width, height is {rectangle.Width}, {rectangle.Height}.");
-
-        var area = calculator.CalculateArea(rectangle);
-        Console.WriteLine($"The rectangle's area is {area}.");
+        CalculateRectangle(rectangle);
 
         Console.ReadLine();
+    }
+
+    private static void CalculateRectangle(Rectangle rectangle)
+    {
+        Console.WriteLine($"The {nameof(rectangle)}'s width, height is {rectangle.Width}, {rectangle.Height}.");
+
+        AreaCalulator calculator = new();
+        var area = calculator.CalculateArea(rectangle);
+
+        Console.WriteLine($"The {nameof(rectangle)}'s area is {area}.");
     }
 }
