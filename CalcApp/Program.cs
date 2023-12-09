@@ -12,9 +12,6 @@ internal class Program
         Rectangle rectangle = new(2, 4);
         CalculateRectangle(rectangle);
 
-        Square square = new(2);
-        CalculateRectangle(square);
-
         Console.ReadLine();
     }
 
