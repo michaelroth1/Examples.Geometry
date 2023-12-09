@@ -20,8 +20,7 @@ internal class Program
         Console.WriteLine($"The {rectangle.GetType().Name}'s "
            + $"width, height is {rectangle.Width}, {rectangle.Height}.");
 
-        AreaCalulator calculator = new();
-        var area = calculator.CalculateArea(rectangle);
+        var area = (new AreaCalulator()).CalculateArea(rectangle);
 
         Console.WriteLine($"The {rectangle.GetType().Name}'s area is {area}.");
     }
