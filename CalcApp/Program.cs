@@ -12,16 +12,20 @@ internal class Program
         Rectangle rectangle = new(2, 4);
         CalculateRectangle(rectangle);
 
+        Square square = new(2);
+        CalculateRectangle(square);
+
         Console.ReadLine();
     }
 
     private static void CalculateRectangle(Rectangle rectangle)
     {
-        Console.WriteLine($"The {nameof(rectangle)}'s width, height is {rectangle.Width}, {rectangle.Height}.");
+        var name = rectangle.GetType().Name;
+        Console.WriteLine($"The {name}'s width, height is {rectangle.Width}, {rectangle.Height}.");
 
         AreaCalulator calculator = new();
         var area = calculator.CalculateArea(rectangle);
 
-        Console.WriteLine($"The {nameof(rectangle)}'s area is {area}.");
+        Console.WriteLine($"The {name}'s area is {area}.");
     }
 }
