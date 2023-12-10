@@ -1,8 +1,8 @@
 ﻿namespace Geometry.Models;
 
-public class Trinagle
+public class Triangle
 {
-    public Trinagle(double baseLength, double height)
+    public Triangle(double baseLength, double height)
     {
         BaseLength = baseLength;
         Height = height;

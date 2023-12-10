@@ -10,9 +10,9 @@ public class AreaCalculator
         {
             return ((Rectangle)shape).CalculateArea();
         }
-        else if (shape.GetType() == typeof(Trinagle))
+        else if (shape.GetType() == typeof(Triangle))
         {
-            return ((Trinagle)shape).CalculateArea();
+            return ((Triangle)shape).CalculateArea();
         }
         else if (shape.GetType() == typeof(Circle))
         {

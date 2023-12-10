@@ -21,7 +21,7 @@
       <FileName>Models\Rectangle.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Geometry.Models.Trinagle">
+  <Class Name="Geometry.Models.Triangle">
     <Position X="2.5" Y="2" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAACABAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
