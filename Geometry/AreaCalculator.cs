@@ -2,7 +2,7 @@
 
 namespace Geometry;
 
-public class AreaCalulator
+public class AreaCalculator
 {
     public double CalculateArea(object shape)
     {
